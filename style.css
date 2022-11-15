@@ -1,49 +1,5 @@
-header {
-    background: #bbbbbb;
-    padding: 20px 0; /* a imagem do menu estava colado na cor de fundo em cima e em baixo, para ter um espaçamento então inseri 20px que ficou um espaço entre a imagem e a cor cinza em cima  e em baixo do backgrond e o zero ficou 0px para os lados*/
+
  
- }
- 
- .caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
- 
- }
- 
-   /*Alterando o tamanho da imagem do cabeçalho*/
- .tamanho {
-    width:  120px;
-    height: 150px;
- 
- }
- 
- nav {
-   position: absolute;
-   top: 50px;
-   right: 0%;
- 
- }
- 
- nav li {
-    display: inline;
-    margin: 0 0 0 15px;
- 
- }
- 
- nav a {
-   text-transform: uppercase;
-   font-size: 25px;
-   color: #000000;
-   font-weight: bold;
-   text-decoration: none;
- }
- 
- nav a:hover {
-    color: #c78c19; /*aqui estou mudando o comportamento do elemento quando o mause passa por cima.*/
-    text-decoration: underline; /*o texto vai ficar sublinhado quando o cursor passar por cima*/
- 
- }
 #imgcs {
     width: 100%;
 
@@ -87,7 +43,9 @@ em strong {
 .vantagens {
     background: #ffffff;
     padding: 20px;
+    padding-left: 110px;
     font-size: 20px;
+    
 
 }
 
