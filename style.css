@@ -1,80 +1,140 @@
-
- 
-#imgcs {
-    width: 100%;
-
-}
-
-.principal {
-    background: #cccccc;
-    padding: 30px;
+header {
+   background: #bbbbbb;
+   padding: 20px 0; /* a imagem do menu estava colado na cor de fundo em cima e em baixo, para ter um espaçamento então inseri 20px que ficou um espaço entre a imagem e a cor cinza em cima  e em baixo do backgrond e o zero ficou 0px para os lados*/
 
 }
 
-
-p {
-    text-align: center;
-    font-size: 20px;
-}
-
-.titulo-centralizado  {
-    text-align: center;
-    font-size: 26px;
-    
-}
-
-#missao {
-   font-size: 20px; 
+.caixa {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
 
 }
 
-/* No html tem 2 strong, um esta dentro do <em> então inseri o <em> para que somente o strong dentro do <em> fique com a cor alterada */
-em strong {
-    color:cornflowerblue;
+  /*Alterando o tamanho da imagem do cabeçalho*/
+.tamanho {
+   width:  120px;
+   height: 150px;
 
 }
 
-  /* Quando criamos uma classe no html então começamos ela aqui no CSS com um ponto (.). */
-.itens {
-    font-style: italic;
-    
-}
-
-.vantagens {
-    background: #ffffff;
-    padding: 20px;
-    padding-left: 110px;
-    font-size: 20px;
-    
+nav {
+  position: absolute;
+  top: 50px;
+  right: 0%;
 
 }
 
-
-ul {
-  display:inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
-  font-size: 20px;
-  
-}
-
-.imagemvantagem2 {
-     width: 50%;
-    
-}
-
-.graficos-cs {
-    background: #b7d5e5;
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
 
 }
 
-#graficos {
-    display:inline-block;
-    width: 680px;
-    height: 400px;
-    margin-left: 40px;
-    padding: 20px 0;
+nav a {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
 }
- 
 
+nav a:hover {
+   color: #c78c19; /*aqui estou mudando o comportamento do elemento quando o mause passa por cima.*/
+   text-decoration: underline; /*o texto vai ficar sublinhado quando o cursor passar por cima*/
+
+}
+
+.funcionalidades {
+   width: 980px;
+   margin: 0 auto;
+   padding: 50px 0; /*acertando o espaçamento interno 50 para cima e para baixo e 0 para os lados*/
+
+}
+
+
+.funcionalidades li {
+      display: inline-block;
+      text-align: center;     /*todos os textos do das listas ficam alinhadas ao centro*/
+      width: 30%;             /*cada caixa vai ter 30% de largura criando um espaço entre elas*/
+      vertical-align: top;    /*todos os elementos ficaram alinhados na parte de cima*/
+      margin: 0 1.5%;        /*espaçamento externo 0 para cima e para baixo e 1.5% para os lados*/
+      padding: 30px 20px;    /*espaçamento interno dos textos dentro da caxa vai ter 30px para cima e para baixo e 20px para os lados, antes a descrição e os textos estavam colados na borda*/
+      box-sizing: border-box; /*esta é uma configuração para que os 30% acima que esta no width seja sempre o percentual da largura e os 20px no padding esta dentro destes 30%*, pois antes de inserir esta configuração quando foi dar uma 20px para a espaçamento interno na descrição que estava colado na borda das caixas uma delas desceu pois a distancia entre elas almentaram*/ 
+      border-color: #000000; /*cor da borda*/
+      border-width: 2px;       /*largura da borda*/
+      border-style: solid;     /*estilo da borda*/   /*ou se quiser simplificar pode inserir da seguinte maneira (( border: 2px  solid #000000 )) */
+      border-radius: 10px; /*para aredondar a borda*/
+}
+
+.funcionalidades li:hover {
+       border-color: #c78c19;  /*quando o mouse passar por cima das funcionalidades o elemento vai mudar de cor*/
+
+}
+
+.funcionalidades li:active {
+     border-color: #088c19; /*quando clicar no elemento a borda vai ficar verde*/
+
+}
+
+.funcionalidades li:hover h2 {
+       font-size: 40px; /*quando o cursor passar por cima da da caixa li o titulo que estiver na teg h2 vai almentar de tamanho para 40px*/
+
+}
+
+.funcionalidades h2 {
+     font-size: 30px;
+     font-weight: bold;
+     margin: 0 0 30px 0;
+
+}
+
+.tamanho1 {
+   width: 255px;
+   height: 150px;
+   padding-right: 50px; 
+
+}
+
+.tamanho2 {
+   width: 230px;
+   height: 150px; 
+
+}
+
+.tamanho3 {
+   width: 180px;
+   height: 150px;  
+
+}
+
+.funcionalidade-descricao {
+   font-size: 18px;
+   margin-top: 30px;
+
+}
+
+.condicoes {
+   font-size: 22px;
+   font-weight: bold;
+   margin-top: 25px; /*as condições estavam coladas na descrição, então ficou com 10px para cima*/
+
+}
+
+.imagem_rodape {
+   width: 140px;
+   height: 190px;
+
+}
+
+footer {
+   text-align: center;
+   background: url("Fotos/bg.PNG");
+   padding: 30px 0; /* a foto do rodape estava muito colada na parte de cima e na parte de baixo, então com o padding espaçamento interno ficou com 40px para cima e para baixo e 0 para os lados*/
+}
+
+.copyright {
+    color: #ffffff; /*cor do texto do rodape branca*/
+    font-size: 13px;
+    margin: 20px 0 0;
+}
