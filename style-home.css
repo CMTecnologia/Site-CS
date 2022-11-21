@@ -1,0 +1,80 @@
+
+ 
+#imgcs {
+    width: 100%;
+
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+
+}
+
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.titulo-centralizado  {
+    text-align: center;
+    font-size: 26px;
+    
+}
+
+#missao {
+   font-size: 20px; 
+
+}
+
+/* No html tem 2 strong, um esta dentro do <em> então inseri o <em> para que somente o strong dentro do <em> fique com a cor alterada */
+em strong {
+    color:cornflowerblue;
+
+}
+
+  /* Quando criamos uma classe no html então começamos ela aqui no CSS com um ponto (.). */
+.itens {
+    font-style: italic;
+    
+}
+
+.vantagens {
+    background: #ffffff;
+    padding: 20px;
+    padding-left: 110px;
+    font-size: 20px;
+    
+
+}
+
+
+ul {
+  display:inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+  font-size: 20px;
+  
+}
+
+.imagemvantagem2 {
+     width: 50%;
+    
+}
+
+.graficos-cs {
+    background: #b7d5e5;
+
+}
+
+#graficos {
+    display:inline-block;
+    width: 680px;
+    height: 380px;
+    margin-left: 40px;
+    padding: 20px 0;
+}
+ 
+
