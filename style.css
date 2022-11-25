@@ -123,7 +123,7 @@ nav a:hover {
 
 .imagem_rodape {
    width: 140px;
-   height: 190px;
+   height: 180px;
 
 }
 
@@ -149,17 +149,22 @@ form {
 
 }
 
-form label {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 
 } 
 
-form input {
+.input-padrao {
    display: block;
    margin: 0 0 20px;
    padding: 10px 25px; /*Aumentando o tamanho do campo (input) onde é inserido as informações, 10px para cima e para baixo e 25px para os lados*/
    width: 50%; /*Os campos vão ficar maiores ocupando 50% da página*/
+
+}
+
+.checkbox {
+    margin: 20px 0;
 
 }
